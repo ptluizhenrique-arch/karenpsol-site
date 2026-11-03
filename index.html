@@ -590,7 +590,7 @@ footer p{margin:0;font-size:.9rem;max-width:52ch}
       <h2>Sua demanda chega no mandato</h2>
       <p class="lead">Problema no ônibus, na escola ou no posto do seu bairro? Quer levar a Karen para uma atividade na sua cidade? Escreva para a equipe.</p>
       <div class="zapbox">
-        <p>O jeito mais rápido é pelo WhatsApp do mandato.</p>
+        <p>O jeito mais rápido é pelo WhatsApp do mandato: <strong style="color:#fff;white-space:nowrap">(51) 99513-1811</strong></p>
         <a class="btn btn-zap js-zap" href="#fale"><svg><use href="#i-zap"/></svg> Chamar no WhatsApp</a>
       </div>
     </div>
@@ -633,7 +633,7 @@ footer p{margin:0;font-size:.9rem;max-width:52ch}
 
 <script>
 // Número do WhatsApp do mandato: só dígitos, com 55 + DDD. Ex.: "5551999999999". Vazio = os botões levam ao formulário.
-const WHATSAPP = "";
+const WHATSAPP = "5551995131811";
 
 const zapUrl = (txt) => "https://wa.me/" + WHATSAPP + (txt ? "?text=" + encodeURIComponent(txt) : "");
 if (WHATSAPP) document.querySelectorAll(".js-zap").forEach(a => { a.href = zapUrl("Olá, equipe da Karen Santos!"); a.target = "_blank"; a.rel = "noopener"; });
