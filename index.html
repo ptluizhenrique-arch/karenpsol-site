@@ -167,7 +167,7 @@ h3{font-size:clamp(1.7rem,3vw,2.2rem);line-height:.95}
 .timeline{list-style:none;margin:0;padding:0}
 .tl{display:grid;grid-template-columns:130px 1fr 1.3fr;gap:24px;padding:26px 0;border-top:2px solid var(--tinta);align-items:baseline}
 .tl:last-child{border-bottom:2px solid var(--tinta)}
-.tl .when{font-family:var(--f-display);font-size:2.6rem;line-height:.9;font-variant-numeric:tabular-nums}
+.tl .when{font-family:var(--f-display);font-size:clamp(2rem,4vw,2.6rem);line-height:.9;font-variant-numeric:tabular-nums}
 .tl h3{font-size:clamp(1.6rem,2.6vw,2.1rem)}
 .tl .num{display:inline-block;margin-top:8px;font-family:var(--f-cond);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.9rem;background:var(--tinta);color:var(--sol);padding:3px 9px;border-radius:5px;font-variant-numeric:tabular-nums}
 .tl p{margin:0;color:#3d3410}
@@ -365,7 +365,7 @@ footer p{margin:0;font-size:.9rem;max-width:52ch}
       <span class="tag">Rio Grande do Sul · 2027–2030</span>
       <h1><span>Karen</span><span>Santos</span></h1>
       <div class="role">Deputada estadual eleita · PSOL</div>
-      <p class="lead">Professora da rede estadual, cria da zona sul de Porto Alegre e militante do movimento negro. Duas vezes a vereadora mais votada da Capital, agora leva para a Assembleia a luta por transporte gratuito, educação pública e direitos para quem trabalha.</p>
+      <p class="lead">Professora de Educação Física, mestra em Educação pela UFRGS, cria da zona sul de Porto Alegre e militante do movimento negro. Duas vezes a vereadora mais votada da Capital, agora leva para a Assembleia a luta por transporte gratuito, educação pública e direitos para quem trabalha.</p>
       <div class="ctas">
         <a class="btn btn-tinta" href="#passe-livre">Conheça o Passe Livre <svg><use href="#i-arrow"/></svg></a>
         <a class="btn btn-ghost" href="#povo-que-batalha">Minha trajetória</a>
@@ -390,8 +390,9 @@ footer p{margin:0;font-size:.9rem;max-width:52ch}
     <div class="batalha-top">
       <div class="head" style="margin:0">
         <span class="eyebrow">Povo que Batalha</span>
-        <h2>Da Cohab Cavalhada à Assembleia</h2>
-        <p class="lead">Karen nasceu e cresceu em Porto Alegre, primeiro no Camaquã, na zona sul, e depois no Partenon. Se formou em Educação Física na UFRGS, onde começou a militância, e passou em concurso para dar aula na rede estadual. Cada eleição dela foi feita de panfleto, porta em porta e trabalho de base.</p>
+        <h2>Do Camaquã à Assembleia</h2>
+        <p class="lead">Karen cresceu no Camaquã, na zona sul de Porto Alegre, numa família negra de servidores públicos: o pai era bancário do Banrisul e a mãe, secretária de escola estadual. A família frequentava clubes negros como o Floresta Aurora, onde o pai foi conselheiro, e a Karen cresceu entre a capoeira, o samba e as campanhas do pai na política.</p>
+        <p class="lead">Entrou na UFRGS pelas ações afirmativas, se formou em Educação Física e fez mestrado em Educação na mesma universidade. Trabalhou no IBGE nas pesquisas POF e PNAD, que a levaram a conhecer de perto as desigualdades da cidade e da Região Metropolitana. Cada eleição dela foi feita de panfleto, porta em porta e trabalho de base.</p>
       </div>
       <div class="quote">
         <p>Um movimento que cabia num elevador virou a maior votação da cidade.</p>
@@ -399,14 +400,18 @@ footer p{margin:0;font-size:.9rem;max-width:52ch}
       </div>
     </div>
     <ol class="timeline">
-      <li class="tl"><div class="when">2007</div><div><h3>Entra na Esef/UFRGS</h3></div><p>Começa a militância organizada no curso de Educação Física da Universidade Federal do Rio Grande do Sul.</p></li>
-      <li class="tl"><div class="when">2013</div><div><h3>Jornadas de Junho e Alicerce</h3></div><p>Das mobilizações de 2013 nasce o Coletivo Alicerce, movimento que forma a base política de Karen até hoje.</p></li>
-      <li class="tl"><div class="when">2014</div><div><h3>Professora da rede estadual</h3></div><p>Formada, é aprovada em concurso para lecionar nas escolas estaduais do Rio Grande do Sul.</p></li>
+      <li class="tl"><div class="when">Juventude</div><div><h3>Capoeira e clubes negros</h3></div><p>Na adolescência, treina na Escola de Capoeira Guerreiros, com o Mestre Farol. Ajuda a criar o primeiro encontro de mulheres do grupo, o Menina Mandigueira.</p></li>
+      <li class="tl"><div class="when">2007</div><div><h3>Entra na Esef/UFRGS</h3></div><p>Ingressa em Educação Física pelas ações afirmativas. A convite da irmã, entra no movimento estudantil e chega ao DCE da UFRGS.</p></li>
+      <li class="tl"><div class="when">2012</div><div><h3>Coletivo Negração</h3></div><p>Depois da luta pela avaliação das cotas, cria o primeiro coletivo de estudantes cotistas da UFRGS.</p></li>
+      <li class="tl"><div class="when">2013</div><div><h3>Jornadas de Junho e Alicerce</h3></div><p>Das mobilizações de 2013 nasce o Coletivo Alicerce, que se tornaria a base política e territorial do mandato. A primeira reunião coube numa salinha do Sindisprev.</p></li>
+      <li class="tl"><div class="when">2014</div><div><h3>Professora de Educação Física</h3></div><p>Formada, é aprovada em concurso para lecionar na rede estadual do Rio Grande do Sul.</p></li>
       <li class="tl"><div class="when">2016</div><div><h3>Primeira candidatura</h3><span class="num">2.642 votos</span></div><p>Escolhida coletivamente pelo Alicerce, entra no PSOL e disputa a Câmara com campanha de rua e quase nenhum recurso. Fica como primeira suplente.</p></li>
       <li class="tl"><div class="when">2018</div><div><h3>Candidata a federal</h3><span class="num">16.438 votos</span></div><p>Faz mais de 16 mil votos e garante novamente a suplência da cadeira conquistada por Fernanda Melchionna.</p></li>
-      <li class="tl"><div class="when">2019</div><div><h3>Assume na Câmara</h3></div><p>Toma posse como vereadora de Porto Alegre na vaga deixada por Fernanda Melchionna, eleita deputada federal.</p></li>
+      <li class="tl"><div class="when">2019</div><div><h3>Assume na Câmara</h3></div><p>Toma posse como vereadora na vaga de Fernanda Melchionna, eleita deputada federal, e preside a Procuradoria da Mulher da Câmara.</p></li>
       <li class="tl"><div class="when">2020</div><div><h3>A mais votada da Capital</h3><span class="num">15.702 votos</span></div><p>Integra a primeira Bancada Negra da história da Câmara de Porto Alegre, ao lado de Matheus Gomes, Laura Sito, Bruna Rodrigues e Daiana Santos.</p></li>
+      <li class="tl"><div class="when">2023</div><div><h3>Presidenta da Cuthab</h3></div><p>Assume a presidência da Comissão de Urbanização, Transportes e Habitação da Câmara.</p></li>
       <li class="tl"><div class="when">2024</div><div><h3>Reeleita com mais força</h3><span class="num">20.207 votos</span></div><p>Segunda maior votação da cidade, cerca de cinco mil votos a mais do que em 2020.</p></li>
+      <li class="tl"><div class="when">2024</div><div><h3>Mestrado em Educação</h3></div><p>Começa o mestrado em Educação na UFRGS, que conclui antes da eleição de 2026, conciliando a pesquisa com o mandato.</p></li>
       <li class="tl key"><div class="when">2026</div><div><h3>Deputada estadual eleita</h3><span class="num">40.998 votos</span></div><p>Amplia a bancada do PSOL na Assembleia Legislativa para três parlamentares, ao lado de Luciana Genro e Matheus Gomes, e ajuda a manter a bancada negra na Casa.</p></li>
     </ol>
   </div>
